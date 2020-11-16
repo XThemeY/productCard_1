@@ -1,0 +1,111 @@
+/* font-family: "Noto Serif", serif;
+font-family: "PT Sans", sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: "PT Sans", sans-serif;
+    background-color: #e3f2fd;
+    color: #000000;
+}
+
+img {
+    max-width: auto;
+    height: auto;
+}
+h1 {
+    margin: 0;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 60px;
+    padding-left: 70px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+    width: 967px;
+
+    box-shadow: 0 0 55px #b5dcf8;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.card_img_wrapper {
+    width: 371px;
+}
+
+.card_content_wrapper {
+    width: 426px;
+    float: right;
+}
+
+.card_title {
+    margin-top: 12px;
+    margin-bottom: 9px;
+
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: #bfc5c8;
+    letter-spacing: -0.3px;
+}
+.card_book_title {
+    margin-bottom: 22px;
+    font-family: "Noto Serif", serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.22;
+    color: #01a4bd;
+}
+
+.card_description {
+    margin-bottom: 17px;
+    color: #6c757f;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+.card_description span {
+    font-size: 14px;
+}
+
+.card_details_wrapper {
+    margin-top: 17px;
+    margin-bottom: 23px;
+}
+.card_label {
+    margin-bottom: 8px;
+    color: #bfc5c8;
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+}
+.card_price {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.3px;
+}
+.card_button_1 {
+    display: inline-block;
+    margin-top: 3px;
+    padding-left: 33px;
+    padding-right: 35px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: #e2013b;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49px;
+    color: white;
+}
